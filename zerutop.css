@@ -1,0 +1,99 @@
+body{
+    background-image: url(pictures/eyes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow: 0px 12px 14px rgb(33, 17, 37);
+}
+
+.form h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 12px 14px rgb(2, 1, 2);
+}
+
+.form p{
+    text-align: center;
+    color: black;
+    text-shadow: 0px 12px 14px rgb(2, 1, 2);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.ic{
+    text-align: center;
+}
+
+.ic a{
+    color: #0a0606;
+    text-shadow: none;
+    padding: 10px;
+}
+
+.fa-brands.fa-facebook.fa-2x:hover{
+    color: blue;
+    transform: scale(2.0);
+    transition: 0.3s ease-in-out;
+}
+
+.fa-solid.fa-envelope.fa-2x:hover{
+    color: rgb(6, 146, 240);
+    transform: scale(2.0);
+    transition: 0.3s ease-in-out;
+}
+
+.fa-brands.fa-discord.fa-2x:hover{
+    color: blue;
+    transform: scale(2.0);
+    transition: 0.3s ease-in-out;
+}
+
+.fa-solid.fa-gamepad.fa-2x:hover{
+    color: red;
+    transform: scale(2.0);
+    transition: 0.3s ease-in-out;
+}
+
+.fa-solid.fa-thumbs-up.fa-2x{
+    text-align: right;
+    padding: 10px;
+}
